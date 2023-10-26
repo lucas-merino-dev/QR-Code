@@ -1,0 +1,42 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    font-size: 15px;
+    font-family: "Outfit";
+    background-color: var(--Light-gray);
+}
+
+    .body {
+        text-align: center;
+    }
+
+    .container {
+        margin: auto;
+        margin-top: 5rem;
+        width: 300px;
+        background-color: var(--White);
+        text-align: center;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+
+    .image {
+        width: 300px;
+        border-radius: 1rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: normal;
+        color: var(--Grayish-blue);
+        padding-bottom: 1rem;
+    }
